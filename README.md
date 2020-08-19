@@ -1,1 +1,5 @@
-hiring_DS
+The aim of this project is to take the data in https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us?select=fulltimeCHI.csv about IT related job hiring in 2018 in the US and get some insight on the job market. 
+
+For the moment, the most important result I found out is that companies give the wrong name to machine learning engineering openings and software engineering openings around 40% of the time, whereas data scientist and data analyst openings have the wrong name 20% of the time. These numbers imply that companies may fail to attract good candidates because an applicant has up to a 30% probability to apply for the wrong job.
+
+To give a better idea on how I obtained such values, I identified the ideal employee type for each job opening in the dataset by finding the most important tasks from the job description with non-negative matrix factorization techniques. I then compared the ideal employee type with the job title for each opening, and found out that the two do not often match
